@@ -27,7 +27,6 @@ class Settings(BaseSettings):
     # CORS (for frontend)
     ALLOWED_ORIGINS: list = [
         "http://localhost:5173",  # Vite frontend
-        "http://localhost:3000",
         "https://study-planner-chi-smoky.vercel.app/"  # Production domain
     ]
     
