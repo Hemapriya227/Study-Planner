@@ -28,7 +28,7 @@ class Settings(BaseSettings):
     ALLOWED_ORIGINS: list = [
         "http://localhost:5173",  # Vite frontend
         "http://localhost:3000",
-        "https://yourfrontend.vercel.app"  # Production domain
+        "https://study-planner-chi-smoky.vercel.app/"  # Production domain
     ]
     
     class Config:
