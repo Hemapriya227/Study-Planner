@@ -26,9 +26,10 @@ class Settings(BaseSettings):
     
     # CORS (for frontend)
     ALLOWED_ORIGINS: list = [
-        "http://localhost:5173",  # Vite frontend
-        "https://study-planner-chi-smoky.vercel.app/"  # Production domain
-    ]
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "https://study-planner-chi-smoky.vercel.app",  # ← YOUR EXACT URL
+]
     
     class Config:
         env_file = ".env"
